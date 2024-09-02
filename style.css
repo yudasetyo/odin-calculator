@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+
+.display {
+  width: 100%;
+  height: 40px;
+  background-color: cadetblue;
+  text-align: right;
+  border-radius: 5px;
+  font-size: 35px;
+}
+
+.button-group {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+button {
+  width: 70px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+button:active {
+  background-color: gray;
+  color: white;
+}
+
+#btn-reset {
+  background-color: red;
+  color: white;
+  width: 145px;
+}
+
+#btn-delete {
+  background-color: grey;
+  color: white;
+  width: 145px;
+}
+
+#btn-submit {
+  background-color: orange;
+  color: white;
+}
+
+#btn-reset:active {
+  background-color: gray;
+  color: white;
+}
+
+#btn-delete:active {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+#btn-submit:active {
+  background-color: gray;
+  color: white;
+}
